@@ -60,6 +60,10 @@ namespace CLOTHESAPP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+
             button4.Visible = false;
             button3.Visible = true;
             imageList1.Images.Clear();
@@ -464,6 +468,11 @@ namespace CLOTHESAPP
         {
             button4.Visible = false;
             button3.Visible = true;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+
+
             imageList1.Images.Clear();
 
             Graphics g = Graphics.FromHwnd(Handle);
@@ -1055,6 +1064,11 @@ namespace CLOTHESAPP
             button1.Visible = true;
             button2.Visible = true;
             button4.Visible = true;
+
+            pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = true;
+
         }
 
       
@@ -1077,6 +1091,11 @@ namespace CLOTHESAPP
             button2.Visible = false;
             button3.Visible = true;
             button4.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+
+
             int x = 277;
             int y = 182;
 
